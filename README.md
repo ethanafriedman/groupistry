@@ -21,44 +21,52 @@ The recommended **Fair Coverage** mode uses lexicographic optimization: it first
 ## Product walkthrough
 
 ### 1. Event setup
+
 Choose a use case and event name. Groupistry adapts its terminology while keeping the same optimization engine underneath.
 
 ![Groupistry event setup](docs/screenshots/01-event-setup.png)
 
 ### 2. Import participant data
+
 Upload CSV or Excel files, review detected columns, and preview the imported data before mapping.
 
 ![Groupistry data import](docs/screenshots/02-data-import.png)
 
 ### 3. Map spreadsheet columns
+
 Map arbitrary spreadsheet headers to participant names and ranked request columns.
 
 ![Groupistry column mapping](docs/screenshots/03-map-columns.png)
 
 ### 4. Configure group capacity
+
 Create equal-capacity groups automatically or customize individual groups. Capacity is enforced as a hard constraint.
 
-![Groupistry group configuration](docs/screenshots/04-configure-groups.png)
+![Groupistry group configuration](docs/screenshots/04-groups.png)
 
 ### 5. Add private placement rules
+
 Administrators can add mandatory must-be-together, cannot-be-together, and locked-group rules separately from participant requests.
 
 ![Groupistry placement rules](docs/screenshots/05-placement-rules.png)
 
 ### 6. Choose an optimization objective
+
 Select Fair Coverage, Balanced, Top Choices, or Maximize Total Preference Score depending on the desired assignment strategy.
 
-![Groupistry optimization strategy](docs/screenshots/06-optimization-strategy.png)
+![Groupistry optimization strategy](docs/screenshots/06-optimization.png)
 
 ### 7. Review optimization analytics
+
 The results dashboard reports solver status, preference coverage, top choices honored, total preferences honored, and mutual pairs honored.
 
 ![Groupistry results summary](docs/screenshots/07-results-summary.png)
 
 ### 8. Inspect and export assignments
+
 Review each group's capacity usage and each participant's matched requests and ranks, then export the final assignment to CSV or Excel.
 
-![Groupistry detailed assignments](docs/screenshots/08-detailed-results.png)
+![Groupistry detailed assignments](docs/screenshots/08-results-detail.png)
 
 ## Stack
 
