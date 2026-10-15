@@ -1,0 +1,88 @@
+import type { UseCasePreset } from "../types";
+
+export const presets: UseCasePreset[] = [
+  {
+    id: "school",
+    title: "School trip",
+    subtitle: "Students into hotel rooms, cabins, or other groups.",
+    labels: {
+      participant: "Student",
+      participantPlural: "Students",
+      room: "Room",
+      roomPlural: "Rooms",
+      preference: "Roommate Request",
+      preferencePlural: "Roommate Requests",
+      groupLabel: "Grade / Class",
+    },
+  },
+  {
+    id: "camp",
+    title: "Summer camp",
+    subtitle: "Campers into bunks, cabins, or rooms.",
+    labels: {
+      participant: "Camper",
+      participantPlural: "Campers",
+      room: "Bunk",
+      roomPlural: "Bunks",
+      preference: "Bunk Request",
+      preferencePlural: "Bunk Requests",
+      groupLabel: "Division",
+    },
+  },
+  {
+    id: "retreat",
+    title: "Retreat",
+    subtitle: "Guests or participants into rooms.",
+    labels: {
+      participant: "Participant",
+      participantPlural: "Participants",
+      room: "Room",
+      roomPlural: "Rooms",
+      preference: "Roommate Preference",
+      preferencePlural: "Roommate Preferences",
+      groupLabel: "Group",
+    },
+  },
+  {
+    id: "conference",
+    title: "Conference",
+    subtitle: "Attendees into hotel rooms or groups.",
+    labels: {
+      participant: "Attendee",
+      participantPlural: "Attendees",
+      room: "Hotel Room",
+      roomPlural: "Hotel Rooms",
+      preference: "Roommate Preference",
+      preferencePlural: "Roommate Preferences",
+      groupLabel: "Company / Department",
+    },
+  },
+  {
+    id: "hotel",
+    title: "Group hotel rooming",
+    subtitle: "Any organized group using shared hotel rooms.",
+    labels: {
+      participant: "Guest",
+      participantPlural: "Guests",
+      room: "Hotel Room",
+      roomPlural: "Hotel Rooms",
+      preference: "Roommate Preference",
+      preferencePlural: "Roommate Preferences",
+      groupLabel: "Group",
+    },
+  },
+  {
+    id: "custom",
+    title: "Custom",
+    subtitle: "Choose your own terminology.",
+    labels: {
+      participant: "Participant",
+      participantPlural: "Participants",
+      room: "Group",
+      roomPlural: "Groups",
+      preference: "Preference",
+      preferencePlural: "Preferences",
+      groupLabel: "Category",
+    },
+  },
+];
